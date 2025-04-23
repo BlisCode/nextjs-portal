@@ -39,9 +39,9 @@ export default function JobListItem({
 
       <div className="text-muted-foreground">
 
-        <p className="flex items-center gap-1.5">
+        <p className="flex items-center gap-1.5 sm:hidden">
           <Briefcase size={16} className="shrink-0" />
-          {type}
+          <Badge>{type}</Badge>
         </p>
         <p className="flex items-center gap-1.5">
           <MapPin size={16} className="shrink-0" />
